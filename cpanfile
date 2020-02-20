@@ -1,0 +1,17 @@
+requires "Authen::Passphrase";
+requires "DateTime::Event::Recurrence";
+requires "DateTime::Format::MySQL";
+requires "DBIx::Class";
+requires "DBIx::Class::Tree::AdjacencyList::Ordered";
+requires "DBIx::Connector";
+requires "Devel::OverloadInfo";
+requires "File::MkTemp";
+requires "JSON::RPC::Legacy::Client";
+requires "Locale::Codes";
+requires "Locale::Currency";
+requires "Mojolicious::Plugin::OpenAPI";
+requires "Mojolicious::Plugin::CORS";
+requires "OpenAPI::Client";
+requires "REST::Client";
+requires "Session::Token";
+requires "Text::Unaccent::PurePerl";
