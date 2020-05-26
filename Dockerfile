@@ -19,7 +19,6 @@ RUN apk update && \
     perl-dev \
     perl-io-socket-ssl \
     perl-json \
-    perl-json-validator \
     perl-json-webtoken \
     perl-mojolicious \
     perl-moose \
@@ -38,5 +37,5 @@ RUN apk update && \
     wget && \
     curl -L https://cpanmin.us | perl - App::cpanminus && \
     cpanm DBIx::Class::InflateColumn::Currency --notest && \
-#    cpanm JHTHORSEN/JSON-Validator-3.22.tar.gz  && \
+    cpanm JHTHORSEN/JSON-Validator-3.22.tar.gz  && \
     cpanm --installdeps . -M https://cpan.metacpan.org
