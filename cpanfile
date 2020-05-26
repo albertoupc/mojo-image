@@ -7,7 +7,6 @@ requires "DBIx::Connector";
 requires "Devel::OverloadInfo";
 requires "File::MkTemp";
 requires "JSON::RPC::Legacy::Client";
-requires "JSON::WebToken";
 requires "Locale::Codes";
 requires "Locale::Currency";
 requires "Mojolicious::Plugin::OpenAPI";
