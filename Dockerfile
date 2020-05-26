@@ -19,6 +19,7 @@ RUN apk update && \
     perl-dev \
     perl-io-socket-ssl \
     perl-json \
+    perl-json-webtoken \
     perl-mojolicious \
     perl-moose \
     perl-mime-lite \
