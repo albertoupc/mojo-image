@@ -38,4 +38,5 @@ RUN apk update && \
     wget && \
     curl -L https://cpanmin.us | perl - App::cpanminus && \
     cpanm DBIx::Class::InflateColumn::Currency --notest && \
+    cpanm Date::ICal --notest && \
     cpanm --installdeps . -M https://cpan.metacpan.org
