@@ -12,6 +12,7 @@ RUN apk update && \
     perl-apache-logformat-compiler \
     perl-bit-vector \
     perl-carp-clan \
+    perl-data-ical \
     perl-date-calc \
     perl-datetime \
     perl-db \
