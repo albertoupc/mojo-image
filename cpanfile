@@ -1,4 +1,5 @@
 requires "Authen::Passphrase";
+requires "Data::ICal::DateTime";
 requires "DateTime::Event::Recurrence";
 requires "DateTime::Format::MySQL";
 requires "DBIx::Class";
