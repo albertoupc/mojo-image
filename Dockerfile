@@ -1,4 +1,4 @@
-FROM alpine:3.11
+FROM alpine:3.13
 
 COPY cpanfile /
 
@@ -10,6 +10,7 @@ RUN apk update && \
     mariadb-client \
     perl \
     perl-apache-logformat-compiler \
+    perl-app-cpanminus \
     perl-bit-vector \
     perl-carp-clan \
     perl-data-ical \
@@ -36,7 +37,7 @@ RUN apk update && \
     perl-yaml \
     perl-yaml-libyaml \
     wget && \
-    curl -L https://cpanmin.us | perl - App::cpanminus && \
+#    curl -L https://cpanmin.us | perl - App::cpanminus && \
     cpanm DBIx::Class::InflateColumn::Currency --notest && \
     cpanm Date::ICal --notest && \
     cpanm --installdeps . -M https://cpan.metacpan.org
