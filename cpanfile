@@ -17,3 +17,4 @@ requires "OpenAPI::Client";
 requires "REST::Client";
 requires "Session::Token";
 requires "Text::Unaccent::PurePerl";
+requires "MIME::Lite::TT::HTML";
