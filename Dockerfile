@@ -30,6 +30,7 @@ RUN apk update && \
     perl-net-ldap \
     perl-plack \
     perl-posix-strftime-compiler \
+    perl-spreadsheet-xlsx \
     perl-switch \
     perl-text-autoformat \
     perl-text-soundex \

@@ -19,3 +19,4 @@ requires "Session::Token";
 requires "Text::Unaccent::PurePerl";
 requires "MIME::Lite::TT::HTML";
 requires "Excel::Writer::XLSX";
+requires "Spreadsheet::Read";
