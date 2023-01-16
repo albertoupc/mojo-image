@@ -7,6 +7,7 @@ requires "DBIx::Class::Tree::AdjacencyList::Ordered";
 requires "DBIx::Connector";
 requires "Devel::OverloadInfo";
 requires "File::MkTemp";
+requires "Hash::Merge";
 requires "JSON::RPC::Legacy::Client";
 requires "JSON::Validator";
 requires "Locale::Codes";
