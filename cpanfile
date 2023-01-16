@@ -8,6 +8,7 @@ requires "DBIx::Connector";
 requires "Devel::OverloadInfo";
 requires "File::MkTemp";
 requires "Hash::Merge";
+requires "Hash::Merge::Extra";
 requires "JSON::RPC::Legacy::Client";
 requires "JSON::Validator";
 requires "Locale::Codes";
